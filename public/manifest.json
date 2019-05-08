@@ -1,0 +1,21 @@
+{
+  "short_name": "Cook Manager",
+  "name": "Cook Manager and Planner",
+  "icons": [
+    {
+      "src": "Icon-192px.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "Icon-512px.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#62BD4B",
+  "background_color": "#444444"
+}

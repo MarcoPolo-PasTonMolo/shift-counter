@@ -1,0 +1,294 @@
+html {
+  background-color: #444444;
+  height: 100%;
+  color: #FBF9FA;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  margin-bottom: .5rem;
+  padding-top: 1rem;
+}
+
+button {
+  font-family: 'Ubuntu', sans-serif;
+  background: none;
+  border: none;
+  color: #FBF9FA;
+}
+
+nav {
+  height: 3.5rem;
+  background: #62BD4B;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 0 1rem black;
+}
+
+nav > * {
+  display: inline-block;
+  margin: 0;
+}
+
+nav > button {
+  outline: none;
+  background: none;
+  color: #FBF9FA;
+  border: none;
+  font-size: 1rem;
+  height: 3.5rem;
+  cursor: pointer;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+nav > button:hover, nav > button:active {
+  background:#53AE3C;
+}
+
+#content {
+  margin-top: 3.5rem;
+}
+
+.cook-color {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-block;
+  border-radius: 5px;
+  bottom: 0;
+  margin: 0 .5rem -.35rem 0;
+}
+
+.cook-info {
+  display: inline-block;
+}
+
+.cook-block button {
+  padding: 0;
+  height: 1.75rem;
+  width: 1.75rem;
+  box-shadow: none;
+}
+
+.delete {
+  margin-right: 1rem;
+}
+
+.card {
+  margin: 0 auto;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  width: 19rem;
+}
+
+#calendar {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.light-color {
+  background-color: #FBF9FA;
+  color: #444444;
+}
+
+.dark-color {
+  background-color: #1f1f1f;
+  color: #FBF9FA;
+}
+
+.accent2-color {
+  background-color: #E84329;
+  color: #FBF9FA;
+}
+
+.primary-color {
+  background-color: #62BD4B;
+  color: #FBF9FA;
+}
+
+.accent1-color {
+  background-color: #CBA06A;
+  color: #444444;
+}
+
+#calendar-month-year {
+  display: inline-block;
+  margin: 1rem 1rem;
+  width: 13rem;
+}
+
+#calendar-controls button {
+  font-size: 2rem;
+}
+
+#calendar {
+  text-align: center;
+}
+
+#calendar td {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+#calendar button {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+  border-color: yellowgreen;
+  border-style: solid;
+  color: #FBF9FA;
+  outline: none;
+}
+
+.card-heading {
+  color: #62BD4B;
+  margin: 0;
+}
+
+#backdrop {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  top: 0;
+  left: 0;
+  text-align: center;
+  position: fixed;
+}
+
+#modal {
+  position: fixed;
+  overflow: hidden;
+  z-index: 0;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 0 auto;
+  width: 13rem;
+  left: 0;
+  right: 0;
+  top: 5rem;
+}
+
+#modal-header {
+  margin: 0 0 2rem 0;
+}
+
+#modal-header h3 {
+  margin: 0;
+}
+
+.radio {
+  display: block;
+  text-align: left;
+  margin-bottom: .5rem;
+}
+
+.btn {
+  padding: .75rem 2rem;
+  box-shadow: none !important;
+}
+
+#modal-submit {
+  margin-top: 1rem;
+}
+
+.basic-style {
+  border-radius: .3rem;
+  box-shadow: 0 0 .5rem black;
+}
+
+input:not([type]), input[type='text'], input[type='number'] {
+  background-color: transparent;
+  border-width: 0;
+  border-bottom: 1px solid #62BD4B;
+  outline: none;
+  color: white;
+  font-size: 1.25rem;
+  display: block;
+  width: 15rem;
+  padding: .5rem 0;
+}
+
+.cook-input {
+  text-align: left;
+  width: 15rem;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+#cook-form label {
+  color: #62BD4B;
+  font-size: .85rem;
+}
+
+#cook-form {
+  margin-bottom: 2rem;
+}
+
+input[type="color"] {
+  border: none;
+  width: 15rem;
+  display: block;
+  margin: .5rem 0;
+}
+
+#planner {
+  text-align: center;
+  padding: 1rem .5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-spacing: 0;
+}
+
+#planner td div {
+  height: 1.7rem;
+}
+
+#planner button {
+  width: 1.7rem;
+  height: 1.7rem;
+  display: block;
+  color: #444444;
+  outline: none;
+  font-size: 1rem;
+}
+
+#info-page {
+  text-align: left;
+  padding-top: 0;
+}
+
+.heading {
+  text-align: center;
+}
+
+.link{
+  text-align: center;
+  color: #62BD4B;
+  display: block;
+}
+
+.link a:active {
+  color: white;
+}
+
+.link a:visited {
+  color: #62BD4B;
+}
+
+#media button{
+  color: white;
+  cursor: pointer;
+}
+
+#media {
+  display: flex;
+  justify-content: space-evenly;
+}
